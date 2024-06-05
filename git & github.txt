@@ -1,0 +1,14 @@
+git add .
+git commit -m "message"
+git push - i githuba
+
+master branch turi but apsaugota
+
+git pull - patikrinam ar up to date 
+
+git checkout -b (branch name)
+git switch -c bug-fix - sukuria nauja branch
+git merge bug-fix - branch sumetam i master/main
+git push origin bug-fix
+
+
