@@ -1,8 +1,8 @@
-git add .
+git add . - prideda visus pakeitimus pries commitinant
 git commit -m "message"
 git push - i githuba
 
-master branch turi but apsaugota
+master branch turetu but apsaugota nuo tiesioginio pushinimo
 
 git pull - patikrinam ar up to date 
 
