@@ -1,0 +1,46 @@
+Logika ka  kelt i atskiras klases:
+
+Tik susijusius ?
+---------------------------------------
+void nieko negrazina
+int, String ir pns tikisi tokio parametro gryztant koki nurodo
+
+
+interface - 
+abstract - 
+
+
+private ties (@FindBy)findElement nebutina bet gerai
+
+Selenium IDE
+
+driver.get("http://192.168.88.218/");
+
+
+POM eiga:
+
+1. sukurti projekta
+2. dependencies, button
+3. geroji praktika sukurti package pvz lt.techin BaseTest (susikurs iskarto ir klase testuose)
+4. WebDriver driver;
+
+pasikartojantys:
+
+@BeforeEach
+    void setup() {
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.get("http://192.168.88.218/");
+    }
+
+@AfterEach 
+    void tearDown() {
+        driver.quit();
+    }
+
+
+try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
