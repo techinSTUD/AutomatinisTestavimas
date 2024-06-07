@@ -17,6 +17,10 @@ Selenium IDE
 driver.get("http://192.168.88.218/");
 
 
+
+assertTimeout(ofSeconds(2) 
+
+
 POM eiga:
 
 1. sukurti projekta
@@ -44,3 +48,34 @@ try {
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
+
+-------------------------Object ir list kad iteruotu---------------------------------------
+
+    public List<String> getProductsInList() {
+
+        List<String> itemName = new ArrayList<>();
+        for (WebElement product : productList) {
+            itemName.add(product.getText());
+        }
+
+        return productList.stream().map(WebElement::getText).collect(Collectors.toList());
+
+    }
+
+@Test
+    public void testProductListItemIsInList() {
+
+        HomePage homePage = new HomePage(driver);
+        MP3PlayersPage mp3PlayersPage = new MP3PlayersPage(driver);
+        homePage.clickMp3Players();
+        homePage.clickShowAll();
+        homePage.clickShowAsList();
+
+        List<String> result = mp3PlayersPage.getProductsInList();
+
+        List<String> expected = Arrays.asList("iPod Classic", "iPod Nano", "iPod Shuffle", "iPod Touch");
+
+        assertEquals(expected, result);
+    }
+
+-----------------------------------------------------------------------------------------------------------------

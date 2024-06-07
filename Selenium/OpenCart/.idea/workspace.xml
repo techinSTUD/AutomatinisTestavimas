@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="818bac88-7312-464c-98b6-5d46c9f6ac3e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../POM-pvz/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM-pvz/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TracalorieCRUD/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TracalorieCRUD/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TracalorieCRUD/src/test/java/lt/techin/AddMealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TracalorieCRUD/src/test/java/lt/techin/AddMealTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2hVLe6eTirVc8sYAxIw9S1EXQly" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Vartotojas/Desktop/Gintaras/AutomatinisTestavimas/Selenium/POM-pvz"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="818bac88-7312-464c-98b6-5d46c9f6ac3e" name="Changes" comment="" />
+      <created>1717674389603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717674389603</updated>
+    </task>
+    <servers />
+  </component>
+</project>
