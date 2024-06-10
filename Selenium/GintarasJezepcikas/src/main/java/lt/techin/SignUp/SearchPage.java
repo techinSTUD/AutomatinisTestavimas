@@ -11,6 +11,12 @@ public class SearchPage extends BasePage {
     private WebElement searchField;
     @FindBy(css = "h2 > a")
     private WebElement itemName;
+    @FindBy(css = ".wishlist-button-product")
+    private WebElement wishlistButton;
+    @FindBy(css = ".modal-text")
+    private WebElement wishlistAlert;
+    @FindBy(css = ".show .btn-secondary")
+    private WebElement cancelButton;
 
 
     public SearchPage(WebDriver driver) {
@@ -31,5 +37,16 @@ public class SearchPage extends BasePage {
         itemName.click();
     }
 
+    void wishlistButton() {
+        wishlistButton.click();
+    }
+
+    String wishlistAlert() {
+       return wishlistAlert.getText();
+    }
+
+    void cancelButton() {
+        cancelButton.click();
+    }
 
 }

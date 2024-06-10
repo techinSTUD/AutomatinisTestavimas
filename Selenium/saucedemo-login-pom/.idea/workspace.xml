@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9abd3c6-a14a-436d-8d7c-441ce01de2bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../OpenCart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenCart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GintarasJezepcikas/src/main/java/lt/techin/SignUp/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GintarasJezepcikas/src/main/java/lt/techin/SignUp/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GintarasJezepcikas/src/test/java/lt/techin/SignUp/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GintarasJezepcikas/src/test/java/lt/techin/SignUp/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +30,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Vartotojas/Desktop/Gintaras/AutomatinisTestavimas/Selenium/OpenCart"
+    "last_opened_file_path": "C:/Users/Vartotojas/Desktop/Gintaras/AutomatinisTestavimas/Selenium/test-pvz"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="LoginTests.standartUserLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testavimas-05-28" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTests" />
+      <option name="METHOD_NAME" value="standartUserLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="saucedemo-login-pom" />
       <method v="2">
@@ -45,6 +57,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTests.standartUserLogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
