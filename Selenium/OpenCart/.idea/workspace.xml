@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="818bac88-7312-464c-98b6-5d46c9f6ac3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../POM-pvz/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM-pvz/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TracalorieCRUD/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TracalorieCRUD/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TracalorieCRUD/src/test/java/lt/techin/AddMealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TracalorieCRUD/src/test/java/lt/techin/AddMealTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="818bac88-7312-464c-98b6-5d46c9f6ac3e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2hVLe6eTirVc8sYAxIw9S1EXQly" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Vartotojas/Desktop/Gintaras/AutomatinisTestavimas/Selenium/POM-pvz"
+    "last_opened_file_path": "C:/Users/Vartotojas/Desktop/Gintaras/AutomatinisTestavimas/Selenium/OpenCart"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
