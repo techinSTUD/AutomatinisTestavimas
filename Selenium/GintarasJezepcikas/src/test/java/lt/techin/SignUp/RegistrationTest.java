@@ -32,7 +32,7 @@ public class RegistrationTest extends BaseTest {
 
         String firstName = "James";
         String lastName = "Bond";
-        String email = "james11@bond.ai";
+        String email = "james12@bond.ai";
         String password = "ChuckNorrisForever";
         String birthDate = "01/01/1957";
 

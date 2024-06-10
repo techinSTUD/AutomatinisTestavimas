@@ -1,16 +1,9 @@
 package lt.techin.SignUp;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class SearchPage extends BasePage {
@@ -30,30 +23,14 @@ public class SearchPage extends BasePage {
     private WebElement sizeDropDown;
     @FindBy(css = "h2 > a")
     private WebElement getItemName;
+    @FindBy(css = "[value='4']")
+    private WebElement getSelectedSize;
 
 
     public SearchPage(WebDriver driver) {
         super(driver);
     }
 
-    public static List<String> readCSV(String filePath) {
-        List<String> lines = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-            String line;
-            reader.readLine();
-            while ((line = reader.readLine()) != null) {
-                lines.add(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return lines;
-    }
-
-    public static void main(String[] args) {
-        List<String> csvLines = readCSV("src/test/resources/products.csv");
-        System.out.println(csvLines);
-    }
 
     void searchField(String ItemName) {
         searchField.click();
@@ -61,9 +38,6 @@ public class SearchPage extends BasePage {
         searchField.sendKeys(Keys.ENTER);
     }
 
-    String itemName() {
-        return itemName.getText();
-    }
 
     void clickItem() {
         itemName.click();
@@ -81,25 +55,22 @@ public class SearchPage extends BasePage {
         cancelButton.click();
     }
 
-    void sizeDropDown() {
-        sizeDropDown.click();
-    }
-
     String getItemName() {
 
         return getItemName.getText();
     }
 
+    String getSelectedSize() {
+        return getSelectedSize.getText();
+    }
+
+
     public void selectSize(String size) {
-        WebElement sizeOption = driver.findElement(By.xpath("//option[text()='" + size + "']"));
-        sizeOption.click();
+        selectSize(size);
     }
 
-    public String getSelectedSize() {
-        WebElement selectedSizeElement = driver.findElement(By.id("selected-size-id")); // Adjust selector as needed
-        return selectedSizeElement.getText();
+    public void sizeDropDown() {
+        sizeDropDown.click();
     }
-
-
 }
 
